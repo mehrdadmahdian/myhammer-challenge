@@ -1,0 +1,26 @@
+{
+    "name": "mehrdadmahdian/myhammer",
+    "description": "This is my test",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mehrdadmahdian\\MyHammer\\": "src/",
+            "Test\\": "tests/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "mehrdad mahdian",
+            "email": "escherchia88@gmail.com"
+        }
+    ],
+    "require": {},
+    "scripts": {
+        "test" : "./vendor/bin/phpunit tests"
+    }
+}
