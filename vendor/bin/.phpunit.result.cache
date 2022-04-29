@@ -1,1 +1,0 @@
-{"version":1,"defects":[],"times":{"ExplorerControllerTest::testSeriesOfCommand":0.002,"ExplorerControllerTest::testMultipleCommandOnRover":0,"ExplorerBuilderTest::testRoverBuilder":0,"HelperTest::testSuccessGuessNextElementInArray":0,"HelperTest::testFailOnGuessNextElementInArray":0,"RoverTest::testRoverBuilder":0,"RoverTest::testMoveRover":0,"RoverTest::testRotateRover":0}}
