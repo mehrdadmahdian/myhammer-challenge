@@ -6,7 +6,13 @@ use Mehrdadmahdian\MyHammer\Contracts\ExplorerInterface;
 
 class ExplorerBuilder
 {
-    public static function build($type, $specifications): ExplorerInterface
+    /**
+     * @param string $type
+     * @param string $specifications
+     * @return ExplorerInterface
+     * @throws \Exception
+     */
+    public static function build(string $type, string $specifications): ExplorerInterface
     {
         if (in_array(ExplorerInterface::class, class_implements($type)  )) {
             return new $type($specifications);
