@@ -23,7 +23,7 @@ Run the test using
 # Usage
 Using this package client can control an explorer. First, explorer must be created using ExplorerBuilder facility:
 
-## Build an Explorer
+## Build the Explorer
 The first parameter accepts two variable: 
 * $explorerClass = Explorer type must be a fully class name which is implementing `MehrdadMahdian\Contracts\ExplorerInterface`
 * $specification = using this string value, initial state of explorer is defined. 
@@ -35,7 +35,7 @@ The first parameter accepts two variable:
     )
 ```
 
-## Control an Explorer
+## Control the Explorer
 Using Explorer Controller, explorer could be controlled. Controller accepts explorer object as its construction parameter.
 ```php
      $controller = new \Mehrdadmahdian\MyHammer\ExplorerController($explorer);
